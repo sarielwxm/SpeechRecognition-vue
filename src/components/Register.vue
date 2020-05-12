@@ -58,7 +58,7 @@ export default{
             this.$alert('注册成功', '提示', {
               confirmButtonText: '确定'
             })
-            _this.$router.replace('/login')
+            _this.$router.replace('/')
           } if (successResponse.data.code === 610) {
             this.$alert('用户名已存在', '提示', {
               confirmButtonText: '确定'
